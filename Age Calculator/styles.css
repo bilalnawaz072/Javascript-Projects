@@ -1,0 +1,56 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+
+#age-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+#age-form h1 {
+    text-align: center;
+    color: #333;
+}
+
+#age-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#age-form input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#age-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#age-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#age-form button:hover {
+    background-color: #444;
+}
+
+#result {
+    font-size: 1.2em;
+    color: teal;
+}
