@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div>Recipe Book App</div>
+        <div class="search-bar">
+            <input type='text' id="search-input" class="search-input" placeholder="Search">
+            <button class="search-btn" onclick="searchRecipe()">🔍</button>
+        </div>
+    </div>
+
+    <div class="recipe-container" id="recipe-container">
+        <!-- Recipe cards will be populated here -->
+    </div>
+  <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 id="mealName"></h2>
+          <img id="mealImg" src="" alt="Meal Image" style="width:100%;">
+          <h3>Ingredients</h3>
+          <ul id="mealIngredients"></ul>
+          <h3>Instructions</h3>
+          <p id="mealInstructions"></p>
+          <h3>Watch Video</h3>
+          <iframe id="mealVideo" width="420" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -18,6 +18,7 @@ form.addEventListener("submit", function (e) {
         if (months < 0 || (months === 0 && days < 0)) {
             years--;
         }
-        result.innerHTML = `You are ${years} years, ${months} months and ${days} days old.`
+        result.innerHTML = `You are <span style="color: purple;">${years}</span> years ,
+        <span style="color: green;">${months}</span> months and <span style="color: purple;">${days}</span> days old`;
     }
 })
